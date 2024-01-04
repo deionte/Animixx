@@ -1,0 +1,133 @@
+.home-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.home-logo {
+  height: 10rem;
+  margin-bottom: 4rem;
+}
+
+.top-anime-container {
+  display: flex;
+  justify-content: center;
+}
+
+.anime-img {
+  height: 14rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.top-anime {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  align-self: center;
+}
+
+.top-anime-link {
+  margin-left: 2rem;
+  align-self: center;
+  font-size: 25px;
+  color: #ff6b6b;
+}
+
+.top-anime-title {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  align-self: center;
+}
+
+.more-top-anime :hover {
+  cursor: pointer;
+}
+
+.anime-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+}
+
+.anime-link {
+  text-align: center;
+}
+
+.page-container {
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+#search {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 20rem;
+  background-color: #212529;
+  border-style: solid;
+  border-color: #ff6b6b;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+#site-search {
+  border-radius: 5px;
+  height: 25px;
+  width: 300px;
+  font-size: 24px;
+  border-style: none;
+  background-color: #212529;
+}
+
+.search-button {
+  border-radius: 5px;
+  border-style: solid;
+  color: #ff6b6b;
+  border-color: #212529;
+  background-color: #212529;
+  font-size: 18px;
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.button {
+  margin: 2rem;
+  padding: 0.5rem;
+  font-size: 20px;
+  background-color: #212529;
+  border-color: #ff6b6b;
+  border-radius: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1945px) {
+  .anime-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1215px) {
+  .anime-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 780px) {
+  .anime-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+}
